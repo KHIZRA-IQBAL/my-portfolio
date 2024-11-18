@@ -1,0 +1,101 @@
+.contactus{
+    width: 100%;
+    background-color: var(--background-gray);
+    padding: 9.625rem 9.1875rem  10rem 9.1875rem;
+    text-align: center;
+}
+
+.contactus h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 18px;
+}
+
+.contactus span{
+    color: var(--logo-color);
+ }
+
+.contactus p{
+    font-size: 1.0456rem;
+    line-height: 1.75rem;
+    margin-bottom: 6rem;
+}
+
+.contactusbottomdiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    gap: 120px;
+}
+
+.contactusbottomdiv .contactleftdiv{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+ .contactleftdivtext{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+}
+
+.contactleftdivtext :nth-child(2){
+  color: #616161;
+}
+
+.contactleftdivtext :nth-child(3){
+    color: var(--logo-color);
+  }
+
+.contactleftdivContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.contactrightdiv{
+  width: 650px;
+
+}
+
+.contactrightdiv form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.topinputdiv{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+
+.topinputdiv input{
+    width: 320px;
+}
+
+
+.inputdetials{
+      padding: .9375rem 0rem .9375rem .75rem;
+    font-size: .9375rem;
+    background-color: #333333;
+    border-radius: .5rem;
+}
+
+.inputbtn{
+    background-color: var( --btn-color);
+    width: 11.125rem;
+    height: 3.25rem;
+    border-radius: .5rem;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #7D674C;
+    }
+}
+
+

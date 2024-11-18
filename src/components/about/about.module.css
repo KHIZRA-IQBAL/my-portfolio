@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    background-color: var( --background-light-gray);
+    padding: 10rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftdiv{
+    width: 40.70%;
+}
+
+.leftdiv h1{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: .5rem;
+}
+
+.leftdiv p{
+    font-size: 1.875rem;
+    line-height:2.25rem ;
+    color: var(--logo-color);
+}
+
+.leftdiv  .detialstext{
+   font-size: 1.055rem;
+   color: white;
+   line-height: 1.6875rem;
+   margin-top: 1.4688rem;
+   margin-bottom: 2.0313rem;
+}
+
+.aboutrightdiv{
+    margin-right: 11.875rem;
+}
+
+

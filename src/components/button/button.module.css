@@ -1,0 +1,11 @@
+.btn{
+    display: inline-block;
+    margin: auto;
+    padding:.6563rem 3rem;
+    background-color: var(--btn-color); 
+    border-radius: 8px;
+
+   &:hover{
+    background-color: var(--hover-btn-color);
+   }
+}
