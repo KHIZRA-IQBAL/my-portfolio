@@ -1,15 +1,15 @@
 "use client"
-import React, { useState } from 'react'
 import styles from "@/components/header/header.module.css"
 import { caveatFont, interFont } from '@/font'
 import Link from 'next/link'
 import { TiThMenu } from "react-icons/ti";
 import { CgCloseR } from "react-icons/cg";
 import { AnimatePresence, motion } from 'framer-motion'
+import { useState } from "react";
 
 const Header = () => {
 
-  const [isopen, setIsopen] = React.useState(false)
+  const [isopen, setIsopen] = useState(false)
   return (
     <>
       <header className={styles.header}>
