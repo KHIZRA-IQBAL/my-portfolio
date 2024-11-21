@@ -98,4 +98,28 @@
     }
 }
 
+@media (max-width:768px){
+    .contactus{
+     padding: 160px 32px 160px 32px;
+    }
+
+    .contactusbottomdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+}
+
+
+@media (max-width:390px){
+    .contactrightdiv{
+        width:100% ;
+    }
+
+    .topinputdiv{
+     flex-direction: column;
+     gap: 1.25rem;
+    }
+}
+
 

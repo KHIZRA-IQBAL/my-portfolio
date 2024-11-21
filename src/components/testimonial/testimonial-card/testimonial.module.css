@@ -28,3 +28,16 @@ margin-bottom: 1rem;
 .card span{
     color: var(--logo-color);
 }
+
+@media (max-width:768px){
+     .card{
+        width: calc((100% - 32px)/2);
+     }
+}
+
+
+@media (max-width:390px){
+    .card{
+       width: calc((100% - 32px)/1);
+    }
+}

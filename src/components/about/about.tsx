@@ -25,10 +25,10 @@ Hi, I&apos;m Khizra, a passionate web developer with a knack for creating dynami
         </motion.div>
         <motion.div className={styles.aboutrightdiv}
         initial={{opacity:0,x:100}}
-        whileInView={{opacity:1,x:50}}
+        whileInView={{opacity:1,x:0}}
         transition={{duration:2,type:"spring"}}
         >
-          <Image src={"/profile.png"} alt='profile picture' width={400} height={400}></Image>
+          <Image src={"/profile.png"} alt='profile picture' width={400} height={400} className={styles.img}></Image>
         </motion.div>
       </section>
   </>

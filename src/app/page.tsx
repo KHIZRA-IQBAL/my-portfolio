@@ -12,14 +12,14 @@ export default function Home() {
   return (
      <>
     <Header/>
-    <Herosection/>
+    <Herosection/> 
     <About/>
     <AboutBottomImage/>
     <Portfolio/>
     <Services/>
     <Testimonial/>
     <ContactUs/>
-    <Footer/>
+    <Footer/> 
     </>
   );
-}
+} 

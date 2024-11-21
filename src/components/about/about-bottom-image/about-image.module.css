@@ -8,3 +8,21 @@
     align-items: center;
 }
 
+@media(max-width:768px){
+    .aboutbttomimage{
+        padding: 20px 0px;
+        gap: 0rem;
+    }
+}
+
+
+@media(max-width:390px){
+    .aboutbttomimage{
+        padding: 2.625rem 0rem;
+        gap: 3.125rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+}
+

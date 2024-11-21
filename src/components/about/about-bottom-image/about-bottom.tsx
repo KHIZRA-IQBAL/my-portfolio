@@ -39,4 +39,4 @@ const AboutBottomImage = () => {
   )
 }
 
-export default AboutBottomImage
+export default AboutBottomImage;

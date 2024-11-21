@@ -43,3 +43,29 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+@media(max-width:768px){
+    .bottomdiv{
+        padding: 8px 29px;
+        gap:29px;
+    }
+}
+
+
+@media(max-width:390px){
+    .socialicondiv{
+        padding: 4px 20px;
+        gap: 30px;
+      }
+
+      .bottomdiv{
+        padding: 10px 20px;
+        gap:auto;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
