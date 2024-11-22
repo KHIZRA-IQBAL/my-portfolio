@@ -14,7 +14,7 @@ const Header = () => {
     <>
       <header className={styles.header}>
         <nav className={styles.nav}>
-          <h1 className={caveatFont.className}>khizra iqbal</h1>
+          <h1 className={caveatFont.className}>Khizra Iqbal</h1>
           <AnimatePresence>
           {isopen == true ? (
             <motion.ul className={`${interFont.className} ${styles.navUL} ${styles.active}`}
