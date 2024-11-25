@@ -4,8 +4,8 @@
   left: 0;
   z-index: 100;
     width: 100%;
-    height: 5.25rem;
-    background-color: #111010;
+    height: 4.375rem;
+    background-color: #002333;
     padding: 24px 43px;
 }
 
@@ -21,7 +21,7 @@
 
 .nav h1{
     font-size: 30px;
-    text-shadow:  2px 2px #a07272;
+    text-shadow:  2px 2px #159A9C;
     font-weight: bold;
     line-height: 45px;
     color: var(--logo-color);
@@ -65,8 +65,9 @@
     left: 0;
     width: 40%;
     height: 80vh;
-    background-color:#ca9980;
-    opacity: 0.5;
+    color: #002333;
+    background-color:#159A9C;
+    opacity: 0.2;
     gap: 15px;
     padding: 0px 10px;
   }

@@ -1,11 +1,12 @@
 .btn{
     display: inline-block;
+    color: #002333;
     margin: auto;
     padding:.6563rem 3rem;
     background-color: var(--btn-color); 
     border-radius: 8px;
 
    &:hover{
-    background-color: var(--hover-btn-color);
+    background-color: #96d3d4;
    }
 }

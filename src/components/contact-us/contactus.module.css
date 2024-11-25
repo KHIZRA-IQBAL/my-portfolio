@@ -88,13 +88,14 @@
 
 .inputbtn{
     background-color: var( --btn-color);
+    color: #002333;
     width: 11.125rem;
     height: 3.25rem;
     border-radius: .5rem;
     cursor: pointer;
 
     &:hover{
-        background-color: #7D674C;
+        background-color:  #96d3d4;
     }
 }
 

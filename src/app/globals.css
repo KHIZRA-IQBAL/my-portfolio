@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 :root{
-  --background-black:#ca9980;
+  --background-black:#002333;
   --background-gray:#1A1A1A;
   --background-light-gray:#222222;
-  --logo-color:#9a5a3a;
-  --btn-color:#745d3e;
-  --hover-btn-color:#7D674C;
-  --card-title:#552f1c;
+  --logo-color:#B4BEC9;
+  --btn-color:#B4BEC9;
+  --hover-btn-color:#159A9C;
 }
-
 
 html,body{
   color: white;

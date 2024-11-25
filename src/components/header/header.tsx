@@ -26,20 +26,20 @@ const Header = () => {
             >
               <CgCloseR size={30} className={styles.close} onClick={()=>setIsopen(false)}/>
             <li> <Link href={"#"}>Home</Link></li>
-            <li><Link href={"#about"}>about</Link></li>
-            <li><Link href={"#portfolio"}>portfolio</Link></li>
-            <li><Link href={"#service"}>services</Link></li>
-            <li><Link href={"#testimonial"}>testimonial</Link></li>
-            <li> <Link href={"#contact"}>contact</Link></li>
+            <li><Link href={"#about"}>About</Link></li>
+            <li><Link href={"#portfolio"}>Portfolio</Link></li>
+            <li><Link href={"#service"}>Services</Link></li>
+            <li><Link href={"#testimonial"}>Testimonial</Link></li>
+            <li> <Link href={"#contact"}>Contact</Link></li>
           </motion.ul>) : 
           (
           <ul className={`${interFont.className} ${styles.navUL}`}>
             <li> <Link href={"#"}>Home</Link></li>
-            <li><Link href={"#about"}>about</Link></li>
-            <li><Link href={"#portfolio"}>portfolio</Link></li>
-            <li><Link href={"#service"}>services</Link></li>
-            <li><Link href={"#testimonial"}>testimonial</Link></li>
-            <li> <Link href={"#contact"}>contact</Link></li>
+            <li><Link href={"#about"}>About</Link></li>
+            <li><Link href={"#portfolio"}>Portfolio</Link></li>
+            <li><Link href={"#service"}>Services</Link></li>
+            <li><Link href={"#testimonial"}>Testimonial</Link></li>
+            <li> <Link href={"#contact"}>Contact</Link></li>
           </ul>)}
           </AnimatePresence>
           <TiThMenu size={30} className={styles.menu} onClick={() => { setIsopen(!isopen) }} />

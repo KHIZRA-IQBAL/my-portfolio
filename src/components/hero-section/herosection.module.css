@@ -30,6 +30,7 @@
   align-items: center;
   background-color: var( --hover-btn-color);
   border-radius: 1.625rem;
+  color: #002333;
   margin-top: 3.125rem;
   margin-bottom: 4.375rem;
 }
