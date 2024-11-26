@@ -11,13 +11,13 @@
 }
 
 .cardimg{
-width: 9.375rem;
-height: 9.375rem;
-border-radius: 50%;
-border: 3px solid white;
-overflow: hidden;
-margin: auto;
-margin-bottom: 1rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 .card p{
