@@ -10,6 +10,7 @@
 
 @media(max-width:768px){
     .aboutbttomimage{
+        width: 100%;
         padding: 20px 0px;
         gap: 0rem;
     }
