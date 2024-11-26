@@ -60,6 +60,20 @@
     }
 }
 
+@media  (max-width:490px){
+    .about{
+        padding: 10rem 0rem;
+        flex-direction: column;
+     }
+
+     .leftdiv{
+        width:90%;
+    }
+    .aboutrightdiv{
+        margin-top: 2.1875rem;
+        height: auto;
+    }
+}
 @media  (max-width:390px){
     .about{
         padding: 10rem 0rem;

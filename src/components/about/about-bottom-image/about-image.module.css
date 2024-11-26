@@ -16,6 +16,15 @@
 }
 
 
+@media(max-width:490px){
+    .aboutbttomimage{
+        padding: 20px 0px;
+        gap: 0rem;
+    }
+
+}
+
+
 @media(max-width:390px){
     .aboutbttomimage{
         padding: 2.625rem 0rem;
