@@ -115,8 +115,7 @@
     }
 
     .topinputdiv{
-       
-        flex-direction: column;
+       flex-direction: column;
         gap: 1.25rem;
        }
 
@@ -125,7 +124,7 @@
        }
 }
 
-/* @media (max-width:390px){
+@media (max-width:390px){
     .contactrightdiv{
         width:100% ;
     }
@@ -134,6 +133,10 @@
      flex-direction: column;
      gap: 1.25rem;
     }
-} */
+
+    .topinputdiv input{
+        width: 100%;
+    }
+}
 
 
