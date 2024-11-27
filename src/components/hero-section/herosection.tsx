@@ -11,6 +11,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import Image from "next/image";
 import { motion } from "framer-motion"; 
 import React from 'react'
+import Link from "next/link";
 
 const Herosection = () => {
   return (
@@ -38,7 +39,7 @@ const Herosection = () => {
      I love the front end development.</p>
       
 
-      <Button  text={"Hire Me"}/> 
+     <Link href={"#contact"}> <Button  text={"Hire Me"}/> </Link>
       <div className={styles.socialicondiv}>
         <FaFacebookF size={30} color="black"/>
         <FaXTwitter size={30} color="black"/>

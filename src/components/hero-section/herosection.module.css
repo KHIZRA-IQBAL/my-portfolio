@@ -54,6 +54,17 @@
 }
 
 
+@media(max-width:490px){
+    .bottomdiv{
+        padding: 2.625rem 0rem;
+        gap: 3.125rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+}
+
+
 @media(max-width:390px){
     .socialicondiv{
         padding: 4px 20px;
