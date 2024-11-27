@@ -10,7 +10,6 @@
 
 @media(max-width:768px){
     .aboutbttomimage{
-        width: 100%;
         padding: 20px 0px;
         gap: 0rem;
     }
@@ -19,7 +18,6 @@
 
 @media(max-width:490px){
     .aboutbttomimage{
-        width: 100%;
         padding: 20px 0px;
         gap: 0rem;
     }
